@@ -287,7 +287,7 @@ header
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url('./img/home-bg.jpg');
+	background-image: url('img/godoe.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -347,9 +347,9 @@ about section
 .about-img .img-box::before{
 	content: '';
 	position: absolute;
-	height: 100px;
-	width: 100px;
-	border: 3px solid var(--main-color);
+	height: 10px;
+	width: 10px;
+	border: 2px solid var(--main-color);
 	left: calc(50% - 50px);
 	top: calc(50% - 50px);
 	animation: spin01 10s linear infinite;
